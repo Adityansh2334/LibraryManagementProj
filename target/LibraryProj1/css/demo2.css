@@ -1,0 +1,45 @@
+html, #body2{
+	height: 100%;
+	overflow: hidden;
+}
+.reveal h3{
+    color: rgb(223, 233, 130);
+}
+.reveal .btn{
+    background-color: slateblue;
+   
+}
+.btn:hover{
+    background-color: springgreen;
+    color: black;
+}
+#block1{
+    display: block;
+    background-color: rgba(203, 198, 206, 0.3);
+    border: 4px;
+    box-shadow: 2px 2px 6px springgreen;
+    border-radius: 2%;
+    margin-top: 60px;
+    height: 500px;
+    width: 400px;
+}
+#body2{
+    background-color: #222;
+    font-family: 'Federant', sans-serif;
+    font-size: 16px;
+    background-image: url( ../img/bookbg.jpg );
+    background-size: cover;
+}
+#body2 #h2{
+    text-decoration: underline;
+    color: brown;
+    text-align: center;
+    margin-bottom: -40px;
+}
+.form-group{
+    color: yellow;
+    text-shadow: 2px 2px 3px teal;
+}
+.form-group span{
+    color:aliceblue
+}
